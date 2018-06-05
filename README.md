@@ -3,8 +3,10 @@
 Personal starter web project
 
 ## Includes
-* transpile and minify html, sass and js
-* watch command
+* transpile and minify html, sass & js
+* autoprefixer
+* css reset
+* file watcher
 
 ## Usage
 `npm update`
