@@ -1,7 +1,7 @@
 {
-  "name": "homepage",
+  "name": "base-web-setup",
   "version": "1.0.0",
-  "description": "Personal homepage for career purposes",
+  "description": "Personal starter web project",
   "private": true,
   "watch": {
     "build": {
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NukeTheMoon/homepage.git"
+    "url": "git+https://github.com/NukeTheMoon/base-web-setup.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NukeTheMoon/homepage/issues"
+    "url": "https://github.com/NukeTheMoon/base-web-setup/issues"
   },
-  "homepage": "https://github.com/NukeTheMoon/homepage#readme",
+  "homepage": "https://github.com/NukeTheMoon/base-web-setup#readme",
   "devDependencies": {
     "css-loader": "^0.28.11",
     "extract-loader": "^2.0.1",
