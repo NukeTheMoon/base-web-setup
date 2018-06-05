@@ -6,6 +6,7 @@ Personal starter web project
 * transpile and minify html, sass & js
 * autoprefixer
 * css reset
+* eslint
 * file watcher
 
 ## Usage

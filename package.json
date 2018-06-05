@@ -3,17 +3,9 @@
   "version": "1.0.0",
   "description": "Personal starter web project",
   "private": true,
-  "watch": {
-    "build": {
-      "patterns": [
-        "src/*"
-      ],
-      "extensions": "js,scss,html"
-    }
-  },
   "scripts": {
     "build": "webpack",
-    "watch": "npm-watch build"
+    "watch": "nodemon --exec \"npm run build || exit 1\" --watch src -e js,scss,html"
   },
   "repository": {
     "type": "git",
@@ -28,6 +20,8 @@
   "homepage": "https://github.com/NukeTheMoon/base-web-setup#readme",
   "devDependencies": {
     "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
     "extract-loader": "^2.0.1",
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
@@ -42,6 +36,13 @@
   },
   "dependencies": {
     "hoek": "^5.0.3",
-    "npm-watch": "^0.3.0"
+    "nodemon": "^1.17.5"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "rules": {},
+    "env": {
+      "amd": true
+    }
   }
 }
