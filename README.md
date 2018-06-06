@@ -10,6 +10,6 @@ Personal starter web project
 * file watcher
 
 ## Usage
-`npm update`
+`npm install`
 
 `npm run watch`
